@@ -1,0 +1,68 @@
+body {
+	margin: 0;
+  background-image: url("https://w.forfun.com/fetch/87/8733fd17dc8b05a6042c81f55aeffe25.jpeg?w=1000&r=0.5625");
+	background-repeat: no-repeat;
+  background-position: center;
+	background-attachment: fixed;
+  background-size: cover;
+  }
+  
+  #app {
+    display: grid;
+    grid-template-columns: repeat(auto-fill, 200px);
+    padding: 24px;
+    gap: 24px;
+  }
+  
+  .note {
+    height: 200px;
+    margin-left: 27px;
+    width: 200px;
+    box-sizing: border-box;
+    padding: 16px;
+    border: none;
+    border-radius: 10px;
+    box-shadow: 0 0 7px rgba(0, 0, 0, 0.15);
+    resize: none;
+    font-family: times new roman;
+    font-size: 25px;
+  }
+  
+  .add-note {
+    height: 200px;
+    margin-left: 27px;
+    width: 200px;
+    border: 70px;
+    outline: white solid 2px;
+    background: rgba(150, 146, 146, 0.096);
+    border-radius: 10px;
+    font-size: 120px;
+    color: rgba(255, 246, 246, 0.911);
+    cursor: pointer;
+    transition: background 0.2s;
+  }
+  
+  .add-note:hover {
+    background: rgba(0, 0, 0, 0.2);
+  }
+
+  .border {
+    background: purple none repeat scroll 0 0;
+    border-radius: 32px;
+    margin: 80px;
+    color: beige;
+    padding: 5px 12px 5px 32px;
+    font-size: 28px;
+    font-family: calibri;
+  }
+
+  .border1 {
+    background: purple none repeat scroll 0 0;
+    border-radius: 32px;
+    margin: 0px 300px 0px 300px;
+    color: beige;
+    outline: white solid 7px;
+    font-size: 80px;
+    font-family: verdana;
+  }
+  
